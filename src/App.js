@@ -9,7 +9,6 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Aboutus from './components/Aboutus';
 import Contactus from './components/Contactus';
 import View360 from './components/View360';
-import Design2d3d from './components/Design2d3d';
 
 function App() {
   return (
@@ -23,7 +22,6 @@ function App() {
           <Route exact path="/aboutus" element={<Aboutus />}></Route>
           <Route exact path="/contactus" element={<Contactus />}></Route>
           <Route exact path="/view360" element={<View360 />}></Route>
-          <Route exact path="/design2d3d" element={<Design2d3d />}></Route>
         </Routes>
         </Router>
         <Footer />

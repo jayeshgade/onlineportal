@@ -1,0 +1,29 @@
+.textcontainer{
+    width: 80%;
+    margin: auto;
+    margin-top: 120px;
+    justify-content: center;
+    text-align: justify;
+    font-family: 'Montserrat';
+      }
+      .textcontainer1{
+        width: 80%;
+        margin: auto;
+        justify-content: center;
+        text-align: justify;
+        font-family: 'Montserrat';
+          }
+  /* whatspp button starts*/
+  .whatsapp{
+    position:relative;
+    top:5px;
+    height:50px;
+    width:150px;
+    margin:auto;
+    margin-bottom: 70px;
+    
+    }
+    .whatsappus{
+    height:40px;width:140px;
+    }
+  /* whatspp button ends*/    

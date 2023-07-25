@@ -1,0 +1,69 @@
+  /* services starts*/
+  .style{
+    text-align: center;
+    font-size:25px;
+    font-family: 'Nunito';
+  }
+  
+  
+/* services ends*/
+.container1{
+  width: 80%;
+  margin: auto;
+  font-family: 'Nunito';
+}
+.container1 .serviceone1 img{
+  height: 120px;
+  width: 120px;
+}
+.rightside{
+  float: right;
+}
+.marginleft{
+  margin-left: 25px;
+}
+.marginlefttext{
+  margin-left: 50px;
+}
+
+.form-group{
+  width: 50%;
+  margin: auto;
+}
+input{
+  text-align: center;
+}
+
+@media (max-width: 992px){
+    body{
+    overflow-x:hidden;
+    }
+    .marginleft{
+      margin-left: 0px;
+    }
+    .rightside{
+      float: none;
+    }
+    .marginlefttext{
+      margin-left: 0px;
+    }
+}
+
+@media (max-width: 567px){
+  body{
+  overflow-x:hidden;
+  }
+  .container1{
+    text-align: center;
+  }
+  
+}
+
+
+
+@media (max-width: 475px){
+    body{
+    overflow-x:hidden;
+    }
+
+}

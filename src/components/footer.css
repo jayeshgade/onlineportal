@@ -1,0 +1,80 @@
+.footer{
+    position: relative;
+    width:100%;
+    bottom:0;
+    height:170px;
+    background-color: black;
+    display: flex;
+  font-family: 'Nunito';
+  }
+  .left1{
+    margin-left:25px;
+    margin-top:12px;
+    float:left;
+    width:80%;
+    display: flex;
+    justify-content:left;
+    align-items: left;
+    font-size:15px;
+  }
+  .right1{
+    margin-right:15px;
+    margin-top:12px;
+    float:right;
+    width:30%;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    
+  }
+  .address{
+    color:white;
+    word-spacing: 3px;
+  }
+  .icon1{
+        height:35px;
+    }
+  /* footer ends*/
+
+
+
+
+
+@media (max-width: 868px) {
+
+    body{
+    overflow-x:hidden;
+    }
+    .footer{
+        position: relative;
+        margin-top:60px;
+    }
+    .icon1 {
+      height: 23px;
+    }
+    .left1{
+      margin-left:12px;
+      margin-top:12px;
+      float:left;
+      width:80%;
+      display: flex;
+      justify-content:left;
+      align-items: left;
+      font-size:13px;
+    }
+}
+
+@media (max-width: 400px) {
+  .footer{
+    position: relative;
+    width:100%;
+    bottom:0;
+    height:auto;
+    background-color: black;
+    display: flex;
+  font-family: 'Nunito';
+  }
+  .icon1{
+    height:18px;
+}
+}

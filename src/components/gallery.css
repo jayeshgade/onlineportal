@@ -1,0 +1,223 @@
+.jjj{
+    width: 70%;
+    margin-top: 40px;
+  }
+  .hh {
+    width: 100%;
+    height: 500px;
+}
+  
+  .flexcontainer{
+    /*background-color:blue;*/
+    display:flex;
+    width:100%;
+    margin:auto;
+    justify-content:center;
+    flex-wrap:wrap;
+    }
+    .flexitem{
+    /*background-color:red;*/
+    border:3px solid red;
+    border-radius:10px;
+    text-align:center;
+    margin:12px;
+    width:200px;
+    height:200px;
+    }
+    .flexitem p{
+    margin-top:50%;
+    }
+    
+    .gcontainer{
+    position:relative;
+    width:95%;
+    margin:auto;
+    text-align:center;
+    }
+    .gcontainer .gallery-container{
+    
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+    padding:2px;
+    }
+    .gcontainer .gallery-container .galleryimage{
+    
+    height:180px;
+    width:280px;
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow:hidden;
+    cursor:pointer;
+    }
+    .gcontainer .gallery-container .galleryimage img{
+    height:100%;
+    width:100%;
+    object-fit:cover;
+    transition: .2s linear;
+    }
+    .gcontainer .gallery-container .galleryimage:hover img{
+    transform: scale(1.1);
+    }
+  .popup-image{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:100%;
+    z-index:100;
+    }
+   .popup-image span{
+    position:absolute;
+    top:0;
+    right:10px;
+    font-size:60px;
+    font-weight:bolder;
+    color:white;
+    cursor:pointer;
+    z-index:100;
+    }
+  .popup-image img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border:5px solid white;
+    border-radius:5px;
+    height: 80%;
+    object-fit:cover;
+    z-index: 100;
+    }
+   
+    
+    @media (max-width: 951px) {
+         .gcontainer .gallery-container .galleryimage {
+        background-color: green;
+        height: 150px;
+        width: 250px;
+        border: 3px solid white;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+        overflow: hidden;
+        cursor: pointer;
+    }
+    }
+    
+        @media (max-width: 868px) {
+    body{
+    overflow-x:hidden;
+    }
+    .popup-image img{
+      width:75%;
+    }
+  
+    
+  
+    }
+    @media (max-width: 731px){
+    .gcontainer .gallery-container .galleryimage {
+        background-color: green;
+        height: 80px;
+        width: 170px;
+        border: 3px solid white;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+        overflow: hidden;
+        cursor: pointer;
+    }
+    }
+    
+    @media (max-width: 640px) {
+    body{
+    overflow-x:hidden;
+    }
+    .gcontainer .gallery-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    padding:2px;
+    }
+    .gcontainer .gallery-container .galleryimage{
+    background-color:green;
+    height:60px;
+    width:110px;
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow:hidden;
+    cursor:pointer;
+    }
+  
+    }
+    
+    @media (max-width: 546px) {
+    body{
+    overflow-x:hidden;
+    }
+    .gcontainer .gallery-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+    padding:2px;
+    }
+    .gcontainer .gallery-container .galleryimage{
+    background-color:green;
+    height:60px;
+    width:110px;
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow:hidden;
+    cursor:pointer;
+    }
+    .popup-image img{
+      width:70%;
+    }
+    }
+    @media (max-width: 475px){
+    body{
+    overflow-x:hidden;
+    }
+    .gcontainer .gallery-container{
+    display:flex;
+    flex-wrap:wrap;
+    gap:15px;
+    justify-content:center;
+    padding:2px;
+    }
+    .gcontainer .gallery-container .galleryimage{
+    background-color:green;
+    height:60px;
+    width:110px;
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow:hidden;
+    cursor:pointer;
+    }
+  
+    
+    }
+    @media (max-width: 415px){
+    .gcontainer .gallery-container .galleryimage {
+        background-color: green;
+        height: 50px;
+        width: 86px;
+        border: 3px solid white;
+        box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+        overflow: hidden;
+        cursor: pointer;
+    }
+    }
+    @media (max-width: 321px){
+    body{
+    overflow-x:hidden;
+    }
+    .gcontainer .gallery-container .galleryimage{
+    background-color:green;
+    height:40px;
+    width:80px;
+    border:3px solid white;
+    box-shadow: 0 5px 15px rgba(0,0,0,.1);
+    overflow:hidden;
+    cursor:pointer;
+    }
+    }
+    

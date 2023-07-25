@@ -1,0 +1,96 @@
+/*NAVBAR*/
+.navbar{
+top:5px;
+position: sticky;
+z-index: 100;
+}
+
+.marginleftt{
+    margin-left: 100px;
+}
+.marginrightt{
+    margin-right: 150px;
+}
+.left{
+    position: absolute; /* relative kela ki navbar yachya khali yeta*/
+    height: 660px;
+    width: 100px;
+    background-image: url('C:\Users\0010MF744\Desktop\AI - Copy\ai\public\images\3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.right{
+    position: absolute; /* relative kela ki navbar yachya khali yeta*/
+    right: 0px;
+    height: 100vh;
+}
+.right img{
+    height: 100vh;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: 'Nunito';
+    font-weight: 600;
+}
+
+
+/*NAVBAR*/
+
+
+@media (max-width:992px){
+    body{
+        overflow-x: hidden;
+    }
+    /*NAVBAR*/
+    .marginrightt{
+        margin-right: 0px;
+    }
+
+    .navbar-collapse{
+        text-align: center;
+    }
+    .left{
+        position: absolute;
+        height: 590px;
+        width: 100px;
+        background-image: url('C:\Users\0010MF744\Desktop\AI - Copy\ai\public\images\3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .right{
+        display: none;
+        position: absolute; /* relative kela ki navbar yachya khali yeta*/
+        right: 0px;
+        height: 100vh;
+        width: 100%;
+    }
+    /*NAVBAR*/
+}
+
+@media (max-width:868px){
+    body{
+        overflow-x: hidden;
+    }
+   
+}
+
+
+
+@media (max-width:426px){
+    body{
+        overflow-x: hidden;
+    }
+    /*NAVBAR*/
+    .marginleftt{
+        margin-left: 50px;
+    }
+    .left{
+        position: absolute;
+        height: 390px;
+        width: 100px;
+        background-image: url('C:\Users\0010MF744\Desktop\AI - Copy\ai\public\images\3.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    /*NAVBAR*/
+}

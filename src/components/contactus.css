@@ -1,0 +1,16 @@
+.lll{
+    width: 80%;
+}
+.text-center{
+    font-family: 'Nunito';
+}
+
+@media (max-width: 868px) {
+
+    body{
+    overflow-x:hidden;
+    }
+    input::placeholder{
+        font-size: 11px;
+    }
+}
